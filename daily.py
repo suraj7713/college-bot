@@ -1,5 +1,6 @@
 import os
 from datetime import date
+import asyncio
 from telegram import Bot
 
 TOKEN = os.environ["BOT_TOKEN"]
@@ -43,13 +44,17 @@ caption = (
     f"🎓 Engineering College of the Day"
 )
 
-bot = Bot(token=TOKEN)
+async def send_photo():
+    bot = Bot(token=TOKEN)
 
-with open(college["photo"], "rb") as photo:
-    bot.send_photo(
-        chat_id=CHAT_ID,
-        photo=photo,
-        caption=caption
-    )
+    with open(college["photo"], "rb") as photo:
+        await bot.send_photo(
+            chat_id=CHAT_ID,
+            photo=photo,
+            caption=caption
+        )
 
-print(f"Sent: {college['name']}")
+    print(f"Sent: {college['name']}")
+
+
+asyncio.run(send_photo())
