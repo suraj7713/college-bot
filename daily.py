@@ -31,7 +31,58 @@ colleges = [
         "name": "IIT Kharagpur",
         "location": "Kharagpur, West Bengal",
         "photo": "photos/iit_kharagpur.jpg"
+    },
+    {
+        "name": "IIT Roorkee",
+        "location": "Roorkee, Uttarakhand",
+        "photo": "photos/iit_roorkee.jpg"
+    },
+    {
+        "name": "IIT Hyderabad",
+        "location": "Hyderabad, Telangana",
+        "photo": "photos/iit_hyderabad.jpg"
+    },
+    {
+        "name": "NIT Trichy",
+        "location": "Tiruchirappalli, Tamil Nadu",
+        "photo": "photos/nit_trichy.jpg"
+    },
+    {
+        "name": "NIT Surathkal",
+        "location": "Surathkal, Karnataka",
+        "photo": "photos/nit_surathkal.jpg"
+    },
+    {
+        "name": "NIT Warangal",
+        "location": "Warangal, Telangana",
+        "photo": "photos/nit_warangal.jpg"
+    },
+    {
+        "name": "NIT Rourkela",
+        "location": "Rourkela, Odisha",
+        "photo": "photos/nit_rourkela.jpg"
+    },
+    {
+        "name": "NIT Calicut",
+        "location": "Kozhikode, Kerala",
+        "photo": "photos/nit_calicut.jpg"
+    },
+    {
+        "name": "IIIT Hyderabad",
+        "location": "Hyderabad, Telangana",
+        "photo": "photos/iiit_hyderabad.jpg"
+    },
+    {
+        "name": "VIT Vellore",
+        "location": "Vellore, Tamil Nadu",
+        "photo": "photos/vit_vellore.jpg"
+    },
+    {
+        "name": "COEP Technological University",
+        "location": "Pune, Maharashtra",
+        "photo": "photos/coep.jpg"
     }
+]
 ]
 
 # Changes automatically every day
