@@ -83,7 +83,6 @@ colleges = [
         "photo": "photos/coep.jpg"
     }
 ]
-]
 
 # Changes automatically every day
 day_number = (date.today() - date(2026, 9, 12)).days
